@@ -5,12 +5,12 @@ Managing an inventory, especially for those who seek client satisfaction, is a m
 
 This is an inventory management system for searching for specific items if exist in this branch of inventory or not, checking whether their orders are ready to be shipped or not, also checking if the inventory is capable of receiving new orders and packages with different sizes or not, so the packages couldn't be transported to that specific branch of inventory so they don't have to transport the order again back to the provider.
 
-# Note
+# Note :
 ## Keep in mind using the API requires the base information about the warehouse, while all data requested and received will be in JSON only !!
 
 
 
-## Design and Specifications 
+# Design and Specifications :
 
 I had four main resources for the managing system (Item, Order , Manager, WareHouse) :
 
@@ -18,14 +18,14 @@ I had four main resources for the managing system (Item, Order , Manager, WareHo
 ![img1111](https://github.com/kevinhamood/Inventory-Management-System-/assets/54774286/fc9ab23b-7d8e-4b11-a66b-24fd26462756)
 
 
-### Item
+# Item :
 The Item is a part of the order where the order has several items, and the API helps to see if the item by its ID is available in the inventory or not.
 
 ![img2222](https://github.com/kevinhamood/Inventory-Management-System-/assets/54774286/73954657-8ef6-49ea-afac-cffd5e98f7e1)
 
 
 
-### Order
+# Order :
 
 The API helps whether the order is ready to be shipped or not meaning that if the order is packaged or not, also checks if the order can fit into the inventory because of its size.
 
@@ -34,22 +34,21 @@ The API helps whether the order is ready to be shipped or not meaning that if th
 
 
 
-### Manager
+# Manager :
 
 The manager's role here is to manage the Warehouse where he can decide what comes to the inventory and what comes out of it.
 
 ![img4444](https://github.com/kevinhamood/Inventory-Management-System-/assets/54774286/db56c93d-d5e7-43bc-8996-4b565847cdf6)
 
 
-### WareHouse 
+# WareHouse :
 
 The warehouse is where all the items and orders are held, it's the main part of the API where its status selects whether the incoming order by its size can be fetched in or not.
 
 ![img5555](https://github.com/kevinhamood/Inventory-Management-System-/assets/54774286/dc77803d-8e2e-402d-a817-97a1ac676c20)
 
 
-# Tools used 
-
+# Tools used :
 ## The Design was built using Swagger editor supported by SMARTBEAR, I used OpenAPI Specification 3.1.0 
 
 # Design link (on SwaggerHub)
