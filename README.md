@@ -9,8 +9,10 @@ This is an inventory management system for searching for specific items if exist
 ## Design and Specifications 
 
 I had four main resources for the managing system (Item , Order , Manager , WareHouse) :
+![img2222](https://github.com/kevinhamood/Inventory-Management-System-/assets/54774286/73954657-8ef6-49ea-afac-cffd5e98f7e1)
 
 ### Item
+The Item is a part of the order where the order has several items , and the API helps to see if the item by it's ID is available in the inventory or not 
 
 
 https://app.swaggerhub.com/apis/MOHAMMADSWAITE80_1/Inventory-Management-System/1.0.0
