@@ -5,10 +5,16 @@ Managing an inventory, especially for those who seek client satisfaction, is a m
 
 This is an inventory management system for searching for specific items if exist in this branch of inventory or not, checking whether their orders are ready to be shipped or not, also checking if the inventory is capable of receiving new orders and packages with different sizes or not, so the packages couldn't be transported to that specific branch of inventory so they don't have to transport the order again back to the provider.
 
+# Note
+keep in mind using the API requires the base information about the wareHouse, while all data requested and received will be in JSON only !!
+
 
 ## Design and Specifications 
 
 I had four main resources for the managing system (Item , Order , Manager , WareHouse) :
+
+
+![img1111](https://github.com/kevinhamood/Inventory-Management-System-/assets/54774286/fc9ab23b-7d8e-4b11-a66b-24fd26462756)
 
 
 ### Item
@@ -20,7 +26,7 @@ The Item is a part of the order where the order has several items , and the API 
 
 ### Order
 
-The API helps whether the order is ready to be shipped or not meaning that if the order is packaged or not , also checks if the order can fit into the inventory.
+The API helps whether the order is ready to be shipped or not meaning that if the order is packaged or not , also checks if the order can fit into the inventory because of it's size.
 
 
 ![img3333](https://github.com/kevinhamood/Inventory-Management-System-/assets/54774286/4d8c2843-607b-42d6-8a45-a5ade3c07366)
@@ -33,5 +39,14 @@ The manager role here to manage the Warehouse where he can decide what comes to 
 
 ![img4444](https://github.com/kevinhamood/Inventory-Management-System-/assets/54774286/db56c93d-d5e7-43bc-8996-4b565847cdf6)
 
+
+### WareHouse 
+
+The wareHouse is where all the items and orders are held , it's the main part of the API where it's status select whether the incoming order by it's size can be fetched in or not .
+
+![img5555](https://github.com/kevinhamood/Inventory-Management-System-/assets/54774286/dc77803d-8e2e-402d-a817-97a1ac676c20)
+
+
+##
 
 https://app.swaggerhub.com/apis/MOHAMMADSWAITE80_1/Inventory-Management-System/1.0.0
