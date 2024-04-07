@@ -6,7 +6,7 @@ Managing an inventory, especially for those who seek client satisfaction, is a m
 This is an inventory management system for searching for specific items if exist in this branch of inventory or not, checking whether their orders are ready to be shipped or not, also checking if the inventory is capable of receiving new orders and packages with different sizes or not, so the packages couldn't be transported to that specific branch of inventory so they don't have to transport the order again back to the provider.
 
 
-##Design and Specifications 
+## Design and Specifications 
 
 I had four main resources for the managing system (Item , Order , Manager , WareHouse) :
 
